@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	jose "gopkg.in/square/go-jose.v2"
+	jose "github.com/go-jose/go-jose/v3"
 )
 
 // NewRemoteKeySet returns a KeySet that can validate JSON web tokens by using HTTP
